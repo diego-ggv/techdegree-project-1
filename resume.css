@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 'roboto', sans-serif;
+}
+.profile-image{
+	border: solid 2px #FB411F;
+	border-radius: 50%;
+}
+.profile-image:hover{
+	transform: scale(1.2) rotate(5deg);
+}
+h1{
+	background-color: #e2e2e2;
+	padding: 5px;
+}
+.Section_title{
+	text-transform: uppercase;
+}
+.name-ocupation{
+	border: medium;
+	color:aliceblue;
+	background: #272727;
+	border-radius: 10px;
+	text-align: center;
+	
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  
+}
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color: #272727;
+	padding: 5px;
+	margin: 10px;
+}
+.top-menu {
+	display: block;
+    margin-right: auto;
+    color: #FFFFFF;
+	padding: 8px;
+	margin-top: 6px;
+	background: #272727;
+	border-radius: 8px;
+}
+.nav li {
+  padding: 5px 5px 5px 5px;
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: #FB411F
+}
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 400px;
+  text-align: left;
+  background: #E3F3FA;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card:hover {
+  border-color: #ff99ff;
+}
+.card-title{
+	text-align: center;
+	border: solid black 1.5px;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 10px;
+}
+	
