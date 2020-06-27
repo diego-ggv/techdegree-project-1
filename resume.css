@@ -82,6 +82,10 @@ h1{
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 .card:hover {
   border-color: #ff99ff;
@@ -185,6 +189,4 @@ h3 {
 }
 	.contact{
 	color: #FF4018;
-	
 }
-
