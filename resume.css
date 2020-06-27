@@ -3,6 +3,14 @@
 body{
 	font-family: 'roboto', sans-serif;
 }
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
 .profile-image{
 	border: solid 2px #FB411F;
 	border-radius: 50%;
@@ -34,15 +42,19 @@ h1{
   padding: 5px;
   background-color: aliceblue;
   border-radius: 5px;
+  max-width: 1200;
   
 }
 .nav .name {
-    display: block;
-    margin-right: auto;
-    color: #272727;
+	display: block;
+	margin-right: auto;
+	color: #272727;
 	padding: 5px;
 	margin: 10px;
-}
+	font-size: 15pt;
+	font-style: normal;
+	font-weight: 400;
+	}
 .top-menu {
 	display: block;
     margin-right: auto;
@@ -85,3 +97,94 @@ h1{
     max-width: 1200px;
     padding: 0 30px;
 }
+a{
+	text-decoration: none;
+}
+.section-title{
+	
+}
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+} 
+a.github {
+  background-image: url(images/github.svg);
+}
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+
+	.flex {
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: flex; 
+      max-width: 1200px;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+  .nav {
+    max-width: 1200px;
+    padding: 0 30px;
+  }
+
+
+  main {
+    padding-top: 20px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+
+}
+h3 {
+	color: slategrey;
+}
+	.contact{
+	color: #FF4018;
+	
+}
+

@@ -49,6 +49,10 @@ a:hover {
     color: #272727;
 	padding: 5px;
 	margin: 10px;
+	font-size: 15pt;
+	font-style: normal;
+	font-weight: 400;
+
 }
 .top-menu {
 	display: block;

@@ -1,13 +1,30 @@
 @charset "utf-8";
 /* CSS Document */
+body{
+	font-family: 'roboto', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+h1{
+	background-color: #E2E2E2;
+	padding: 5px;
+}
 .nav {
 	display: flex;
     justify-content: space-around;
 	front-weight:700;
+	list-style: none;
 	margin: 0px auto;
 	padding: 5px;
 	background-color: aliceblue;
 	border-radius: 5px;
+	max-width: 1200px;
 }
 .nav .name{
 	display: block;
@@ -15,8 +32,126 @@
 	color: #272727;
 	padding: 5px;
 	margin: 10px;
+	font-size: 15pt;
+	font-style: normal;
+	font-weight: 400;
+
 }
 .top-menu{
-	display: ;
+	display:block;
+	margin-right: auto;
+	color: #FFFFFF;
+	padding: 8px;
+	margin-top: 6px;
+	background: #272727;
+	border-radius: 8px;
+}
+.nav li{
+	padding: 5px;
+}
+.nav a:hover{
+	color: #FB411F;
+}
+.gallery-baner{
+	border: medium;
+	color: aliceblue;
+	background: #272727;
+	border-radius: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+a{
+	text-decoration: none;
+}
+.photos{
+	width: 500px;
+}
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+} 
+a.github {
+  background-image: url(images/github.svg);
+}
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+  .flex {
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: flex; 
+      max-width: 1200px;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  header {
+    min-height: 470px;
+  }
+
+  .nav {
+    max-width: 1200px;
+    padding: 0 30px;
+  }
+
+
+  main {
+    padding-top: 20px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+
+}
+h3 {
+	color: slategrey;
+}
+
+	.contact{
+	color: #FF4018;
 	
 }
