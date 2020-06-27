@@ -1,8 +1,8 @@
-/* Global Layout Set-up */
-* { 
-  box-sizing: border-box;
-}
-  
+/* Global Layout Set-up */ 
+* 
+{
+	box-sizing: border-box;
+}  
 body {
   margin: 0;
   padding: 0;
@@ -12,7 +12,13 @@ body {
   background: #f7f5f0;
 }
 /* Link Styles */
-
+h1{
+	background-color: #E2E2E2;
+	padding: 5px;
+}
+h3 {
+	color: slategrey;
+}
 a {
   text-decoration: none;
   color: #999;
@@ -40,7 +46,7 @@ a:hover {
   padding: 5px;
   background-color: aliceblue;
   border-radius: 5px;
-  
+  max-width: 1200px;
 }
 
 .nav .name {
@@ -72,10 +78,24 @@ a:hover {
 .nav a:hover {
   color: #FB411F
 }
-
-header {
+.gallery-baner{
+	border: medium;
+	color: aliceblue;
+	background: #272727;
+	border-radius: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.header-1 {
   text-align: center;
   background: url('images/hawaii.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+ min-height: 470px;
+}
+.header-2 {
+  text-align: center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -109,6 +129,14 @@ img .img-jack{
 	-webkit-filter: grayscale(1);
 	filter: grayscale(1);
 }
+.name-ocupation{
+	border: medium;
+	color:aliceblue;
+	background: #272727;
+	border-radius: 10px;
+	text-align: center;
+	
+}
 .tag {
   background-color: #efefef;
   color: #FF4018;
@@ -135,7 +163,7 @@ img .img-jack{
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #FB411F;
 }
 
 ul.skills {
@@ -154,6 +182,9 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #029EFF;
+}
+.photos{
+	width: 500px;
 }
 
 footer {
@@ -176,6 +207,11 @@ footer ul {
 footer ul li {
   display: inline-block;
 }
+footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
 
 a.social {
   display: inline-block;
@@ -209,10 +245,7 @@ a.social:hover {
       margin: 0 auto;
   }
 
-  header {
-    min-height: 470px;
-  }
-
+  
   .nav {
     max-width: 1200px;
     padding: 0 30px;
@@ -246,6 +279,5 @@ h3 {
 	padding: 10px;
 }
 .contact{
-	color: #FF4018;
-	
+	color: #FF4018;	
 }
