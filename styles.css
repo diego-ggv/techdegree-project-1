@@ -281,3 +281,7 @@ h3 {
 .contact{
 	color: #FF4018;	
 }
+a .mail{
+	text-decoration: none;
+	color: #272727;
+}
